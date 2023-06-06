@@ -1,0 +1,296 @@
+/* START - Common styles */
+h1, h2, h3, h4, h5, h6, p, a, div, button{
+    font-family: 'Quicksand';
+    color: #383838;
+}
+.btn-primary{
+    background-color: #FD5444 !important;
+    color: white !important;
+    border: 0;
+}
+.btn-primary:hover{
+    background-color: #d34235 !important;
+}
+.btn-outline-primary {
+    --bs-btn-color: #FD5444;
+    --bs-btn-border-color: #FD5444;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d34235;
+    --bs-btn-hover-border-color: #d34235;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #FD5444;
+    --bs-btn-active-border-color: #FD5444;
+    --bs-btn-disabled-color: #FD5444;
+    --bs-btn-disabled-border-color: #FD5444;
+}
+.active>.page-link, .page-link.active {
+    background-color: #FD5444;
+    border-color: #FD5444;
+}
+.page-link {
+    color: #FD5444;
+}
+.page-link:hover {
+    color: #FD5444;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+section{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+#mainContent{
+    margin-top: -72px;
+    padding-top: 3rem;
+}
+.cus-input-group{
+    border: 1px solid #969696;
+    border-radius: 4px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+.cus-input-group input,
+.cus-input-group select{
+    background-color: transparent;
+    border: 0;
+}
+.cus-input-group input:focus,
+.cus-input-group select:focus{
+    box-shadow: none;
+}
+/* END - Common styles */
+
+/* START - Nav */
+.nav-link{
+    margin-right: 14px;
+    font-weight: 500;
+}
+/* END - Nav */
+
+/* START - Hero Section */
+#homeSectionHero{
+    margin-top: -3rem;
+    background: url('./../images/Hero-1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#heroContentRow{
+    padding-top: 4rem;
+}
+#homeSectionHero input{
+    background-color: transparent;
+    border: 0;
+}
+#homeSectionHero input:focus{
+    box-shadow: none;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+/* END - Hero Section */
+
+
+/* START - User cards */
+.cus-user-card-row .card{
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    border: 0.5px solid #c4c4c481;
+    padding-top: 24px;
+    margin-bottom: 1rem;
+}
+.cus-user-card-row h5{
+    font-weight: 700;
+}
+.cus-user-card-row .user-img{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.cus-user-card-row a{
+    color: rgba(13, 13, 13, 0.7);
+    margin-bottom: 40px !important;
+}
+.cus-user-card-row .cus-btn-user-card-1{
+    background-color: #FFFFFF !important;
+    border: 0.5px solid #ECECEC;
+    margin-top: 1.5rem;
+    width: 100%;
+    font-weight: 600;
+    color: #D8B45A;
+}
+.cus-btn-user-card-1 i{
+    margin-right: 1.5rem;
+}
+/* END - User cards */
+
+
+
+
+
+/* START - Footer Styles */
+.cus-footer-up{
+    background-color: #2E2E2E;
+}
+.cus-footer-down{
+    background-color: #1F1F1F;
+}
+.cus-footer-up ul{
+    list-style-type: none;
+}
+.cus-footer-up li{
+    margin-bottom: 10px;
+}
+.cus-footer-up li a{
+    text-decoration: none;
+    color: white;
+}
+/* END - Footer Styles */
+
+
+/* START - Search Form  */
+#sectionSeachForm{
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
+/* END - Search Form  */
+
+/* START - Profile  */
+#sectionProfile{
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
+#sectionProfile #descriptionList .list-group-item{
+    border: 0;
+    font-weight: 600;
+}
+#sectionProfile #descriptionList .list-group-item:nth-child(odd){
+    background-color: #F4F4F4;
+}
+#sectionProfile #descriptionList .list-group-item:nth-child(even){
+    background-color: #ECECEC;
+}
+/* END - Profile  */
+
+
+/* START - Testimonial */
+#videoCardOnBio,
+.testimonial-card-row .card{
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    border: 0.5px solid #c4c4c481;
+    padding-top: 24px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#videoCardOnBio img,
+.testimonial-card-row .card img{
+    border-radius: 10px;
+    background-size:auto;
+    height: auto;
+}
+#videoCardOnBio button,
+.testimonial-card-row .card button{
+    background-color: #f5f5f581;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+/* END - Testimonial */
+
+/* START - Chat request form */
+#formChatRequest button{
+    background-color: #3579B8;
+    color: white;
+}
+#formChatRequest input,
+#formChatRequest label{
+    font-weight: 600;
+}
+/* END - Chat request form */
+
+/* START - Booking Calendar */
+/*.calendar-container .day:hover{*/
+/*    background-color: rgba(255, 228, 196, 0.7) !important;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*.calendar-container .day:active,*/
+/*.calendar-container .day:focus{*/
+/*    background-color: bisque !important;*/
+/*    border-radius: 10px;*/
+/*}*/
+/* END - Booking Calendar */
+
+/* ================== Responsive ================== */
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #FFF5EB !important;
+    }
+
+    #homeSectionHero{
+        background-position: left;
+        background-size:cover;
+    }
+
+    #heroContentRow{
+        padding-top: 6rem;
+    }
+
+}
+

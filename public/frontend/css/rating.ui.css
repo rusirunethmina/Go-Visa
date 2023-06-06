@@ -1,0 +1,49 @@
+
+.rating { 
+    border: none;
+    margin-right: 49px;
+}
+.myratings{
+
+font-size: 85px;
+color: green;
+}
+
+.rating > [id^="star"] { display: none; } 
+.rating > label:before { 
+margin: 5px;
+font-size: 2.25em;
+font-family: bootstrap-icons;
+display: inline-block;
+content: "\F588";
+}
+
+.rating > .half:before { 
+content: "\f089";
+position: absolute;
+}
+
+.rating > label { 
+color: #ddd; 
+float: right; 
+}
+
+
+.rating > [id^="star"]:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > [id^="star"]:checked + label:hover, /* hover current star when changing rating */
+.rating > [id^="star"]:checked ~ label:hover,
+.rating > label:hover ~ [id^="star"]:checked ~ label, /* lighten current selection */
+.rating > [id^="star"]:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.reset-option {
+display: none;
+}
+
+.reset-button {
+margin: 6px 12px;
+background-color: rgb(255, 255, 255);
+text-transform: uppercase;
+}
